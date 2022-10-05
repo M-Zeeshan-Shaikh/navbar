@@ -1,0 +1,419 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-image: url(./backroun.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+.navbar {
+    background-color: antiquewhite;
+    text-align: center;
+    
+    
+
+
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    width: 100px;
+    margin: 5px 0px;
+    padding: 15px;
+}
+
+.navbar ul li:hover {
+    background-color: rgb(231, 137, 14);
+    border-radius: 5px;
+
+}
+
+.submenu1 {
+    display: none;
+}
+
+
+.navbar ul li:hover .submenu1 {
+    display: block;
+}
+
+.submenu1 ul {
+    display: block;
+    position: absolute;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+
+.submenu1 ul li {
+    width: 220px;
+    text-align: left;
+}
+
+.submenu2 {
+    display: none;
+}
+
+
+.navbar ul li:hover .submenu2 {
+    display: block;
+}
+
+.submenu2 ul {
+    display: block;
+    position: absolute;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+
+.submenu2 ul li {
+    width: 220px;
+    text-align: left;
+}
+
+.submenu3 {
+    display: none;
+
+}
+
+
+.submenu2 ul li:hover .submenu3 {
+    display: block;
+}
+
+.submenu3 ul {
+    display: block;
+    position: absolute;
+    top: 0px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-left: 235px;
+    height: 420px;
+
+
+
+}
+
+.submenu3 ul li {
+    width: 300px;
+    text-align: left;
+}
+
+.submenu4 {
+    display: none;
+}
+
+
+.submenu2 ul li:hover .submenu4 {
+    display: block;
+}
+
+.submenu4 ul {
+    display: block;
+    position: absolute;
+    top: 40px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 235px;
+
+}
+
+.submenu4 ul li {
+    width: 220px;
+    text-align: left;
+}
+
+.submenu5 {
+    display: none;
+}
+
+
+.submenu4 ul li:hover .submenu5 {
+    display: block;
+}
+
+.submenu5 ul {
+    display: block;
+    position: absolute;
+    top: 40px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 235px;
+
+}
+
+.submenu5 ul li {
+    width: 220px;
+    text-align: left;
+}
+
+.submenu6 {
+    display: none;
+}
+
+
+.submenu4 ul li:hover .submenu6 {
+    display: block;
+}
+
+.submenu6 ul {
+    display: block;
+    position: absolute;
+    top: 91px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 235px;
+
+}
+
+.submenu6 ul li {
+    width: 220px;
+    text-align: left;
+}
+
+.submenu7 {
+    display: none;
+}
+
+
+.submenu4 ul li:hover .submenu7 {
+    display: block;
+}
+
+.submenu7 ul {
+    display: block;
+    position: absolute;
+    top: 145px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 235px;
+
+}
+
+.submenu7 ul li {
+    width: 220px;
+    text-align: left;
+}
+
+.submenu8 {
+    display: none;
+}
+
+
+.submenu4 ul li:hover .submenu8 {
+    display: block;
+}
+
+.submenu8 ul {
+    display: block;
+    position: absolute;
+    top: 195px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 235px;
+
+}
+
+.submenu8 ul li {
+    width: 220px;
+    text-align: left;
+}
+
+.fa-angle-down,
+.fa-angle-right {
+    float: right;
+}
+
+.submenu9 {
+    display: none;
+}
+
+
+.submenu2 ul li:hover .submenu9 {
+    display: block;
+}
+
+.submenu9 ul {
+    display: block;
+    position: absolute;
+    top: 90px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 235px;
+
+}
+
+.submenu9 ul li {
+    width: 220px;
+    text-align: left;
+}
+
+.submenu10 {
+    display: none;
+}
+
+
+.submenu2 ul li:hover .submenu10 {
+    display: block;
+}
+
+.submenu10 ul {
+    display: block;
+    position: absolute;
+    top: 145px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 235px;
+
+}
+
+.submenu10 ul li {
+    width: 220px;
+    text-align: left;
+}
+
+.submenu11 {
+    display: none;
+}
+
+
+.submenu2 ul li:hover .submenu11 {
+    display: block;
+}
+
+.submenu11 ul {
+    display: block;
+    position: absolute;
+    top: 195px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 235px;
+
+}
+
+.submenu11 ul li {
+    width: 220px;
+    text-align: left;
+}
+
+.submenu12 {
+    display: none;
+}
+
+
+.submenu2 ul li:hover .submenu12 {
+    display: block;
+}
+
+.submenu12 ul {
+    display: block;
+    position: absolute;
+    top: 250px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 235px;
+
+}
+
+.submenu12 ul li {
+    width: 250px;
+    text-align: left;
+}
+
+.submenu13 {
+    display: none;
+}
+
+
+.submenu2 ul li:hover .submenu13 {
+    display: block;
+}
+
+.submenu13 ul {
+    display: block;
+    position: absolute;
+    top: 303px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 235px;
+
+}
+
+.submenu13 ul li {
+    width: 220px;
+    text-align: left;
+}
+
+.submenu14 {
+    display: none;
+}
+
+
+.navbar ul li:hover .submenu14 {
+    display: block;
+}
+
+.submenu14 ul {
+    display: block;
+    position: absolute;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+
+
+
+}
+
+.submenu14 ul li {
+    width: 220px;
+    text-align: left;
+}
+.submenu15 {
+    display: none;
+}
+
+
+.navbar ul li:hover .submenu15 {
+    display: block;
+}
+
+.submenu15 ul {
+    display: block;
+    position: absolute;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    border-radius: 5px;
+
+
+
+}
+
+.submenu15 ul li {
+    width: 220px;
+    text-align: left;
+}
